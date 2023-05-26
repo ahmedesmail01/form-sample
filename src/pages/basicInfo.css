@@ -1,0 +1,121 @@
+.heading {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	padding: 1rem;
+}
+
+.heading h3 {
+	text-decoration: underline;
+	padding-right: 3rem;
+}
+
+.top {
+	display: flex;
+	gap: 20rem;
+	padding-right: 3rem;
+	margin-bottom: 1rem;
+}
+
+fieldset {
+	border: none;
+}
+
+.top fieldset {
+	display: flex;
+	gap: 2rem;
+}
+
+form .normal_f input {
+	width: 90%;
+}
+
+form .normal_f {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+form {
+	padding-right: 3rem;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"] {
+	border: none;
+	border-bottom: 2px solid #8294c4;
+	height: 30px;
+	padding: 4px 10px;
+}
+
+select,
+option {
+	height: 30px;
+	padding: 4px 10px;
+	border-bottom: 2px solid #8294c4;
+	border: none;
+}
+
+input[type="text"]:focus,
+select:focus {
+	outline: none;
+}
+
+form .check {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+}
+
+form .split {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 1rem;
+	gap: 1rem;
+}
+
+.split div {
+	width: 50%;
+}
+
+.split .split_input {
+	width: 65%;
+}
+
+form .inner {
+	width: 70%;
+}
+
+form .inner fieldset {
+	display: flex;
+	justify-content: space-between;
+	gap: 0.5rem;
+	margin-bottom: 1rem;
+	align-items: center;
+}
+
+form .inner fieldset select {
+	width: 250px;
+}
+
+form .textarea {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2rem;
+}
+
+form input[type="submit"] {
+	padding: 8px 12px;
+	color: white;
+	background-color: #8294c4;
+	margin-bottom: 2rem;
+	outline: none;
+	border-radius: 4px;
+	cursor: pointer;
+}

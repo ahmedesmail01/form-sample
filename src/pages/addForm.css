@@ -1,0 +1,28 @@
+.form_container {
+	background-color: #dbdfea;
+	min-height: 80vh;
+}
+
+.form_container .heading {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	padding: 1rem;
+}
+
+.form_container .heading h2 {
+	text-decoration: underline;
+}
+
+.form_container ul {
+	margin-top: 2rem;
+	display: flex;
+	margin-bottom: 1rem;
+}
+
+.form_container li {
+	background-color: white;
+	border-radius: 4px;
+	padding: 6px 12px;
+	cursor: pointer;
+}
